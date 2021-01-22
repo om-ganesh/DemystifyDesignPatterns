@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternDemystify", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehavioralPatterns", "BehavioralPatterns\BehavioralPatterns.csproj", "{03687C5F-74A2-4B7B-AA13-4CFF07D7F46A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralPatternsTests", "BehavioralPatternsTests\BehavioralPatternsTests.csproj", "{3DBAF1FC-22F4-4E70-990E-F76CEC11FECE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C0AA72B-4941-497B-9D7A-3E7D169251B8}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
@@ -30,10 +28,6 @@ Global
 		{03687C5F-74A2-4B7B-AA13-4CFF07D7F46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03687C5F-74A2-4B7B-AA13-4CFF07D7F46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03687C5F-74A2-4B7B-AA13-4CFF07D7F46A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DBAF1FC-22F4-4E70-990E-F76CEC11FECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DBAF1FC-22F4-4E70-990E-F76CEC11FECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DBAF1FC-22F4-4E70-990E-F76CEC11FECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DBAF1FC-22F4-4E70-990E-F76CEC11FECE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CBE9F11-3197-4F2A-A528-2C9BAB58CDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CBE9F11-3197-4F2A-A528-2C9BAB58CDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CBE9F11-3197-4F2A-A528-2C9BAB58CDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
