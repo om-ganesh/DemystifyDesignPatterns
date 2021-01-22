@@ -24,6 +24,11 @@ A working example for explaining the design patterns in C#
  any changes in the property of the subject will be broadcasted to all users/followers
 - Observables has zero to many observers relations
 
+
+### (III) Dependency Injection Pattern
+  
+- Using AutoFac nuget package to illustrate the concept  
+
 #### References
 
 - [Headfirst Design Patterns](https://www.safaribooksonline.com/library/view/head-first-design/0596007124/) - Example taken here is from the reference book
@@ -32,10 +37,10 @@ A working example for explaining the design patterns in C#
 ## Miscellaneous
 
 ### TODO
-- Updating it on weekly basis as much as possible, work in progess[WIP].
+- Updating it on monthly basis as much as possible, work in progess[WIP].
 
 ### Contact - Let's become friend
-- [Github](https://github.com/gitaarush)
+- [Github](https://github.com/om-ganesh)
 
 ### Contribution
 

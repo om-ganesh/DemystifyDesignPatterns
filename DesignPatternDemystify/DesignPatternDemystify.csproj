@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BehavioralPatterns\BehavioralPatterns.csproj" />
+    <ProjectReference Include="..\DIPatterns\DIPatterns.csproj" />
   </ItemGroup>
 
 </Project>
