@@ -7,15 +7,21 @@ namespace SolidPrinciples
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to SOLID Principles!");
 
-            //O of SOLID: OpenClose Principle
+            //OOOOOOOOOOOOOOOOOOOOOOOOOO of SOLID
             //Traditional Technique
             new ProductImplementation().Execute();
             //OpenClose Illustration
             new ProductImplementation().ExecuteUsingOpenClosePrinciple();
 
+            //IIIIIIIIIIIIIIIIIIIIIIIIII of SOLID
+            //Traditional Technique
+            new ProductImplementation().Execute();
+            //OpenClose Illustration
+            new ProductImplementation().ExecuteUsingOpenClosePrinciple();
 
+            
             Console.Read();
         }
     }
