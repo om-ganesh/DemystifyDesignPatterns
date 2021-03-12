@@ -1,15 +1,17 @@
-﻿using System;
+﻿using BehavioralPatterns.Strategy.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BehavioralPatterns.Strategy
+namespace BehavioralPatterns.Strategy.Implementation.Troops
 {
-    public class Archerman : Soldier, IRefillBehavior, IRepairBehavior
+    public class Archerman : Soldier
     {
         public Archerman(IWeapon weapon, IRefillBehavior refillBehavior, IRepairBehavior repairBehavior) 
             :base(weapon,refillBehavior, repairBehavior)
         {
-            Console.WriteLine("I am archerman");
+            this.hitPoints = 20;
+            Console.WriteLine("Archerman created.");
         }
 
     }

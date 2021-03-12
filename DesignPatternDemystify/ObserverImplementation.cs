@@ -9,6 +9,7 @@ namespace DesignPatternDemystify
     {
         public ObserverImplementation()
         {
+            Console.WriteLine("\nLearning Observer Pattern\n");
             WeatherData weatherData = new WeatherData(temperature: 40, pressure: 120, humidity: 20);
             Console.WriteLine(weatherData.ToString());
             IObserver sObserver = new StatisticsDisplay();
