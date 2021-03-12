@@ -1,4 +1,10 @@
-﻿using BehavioralPatterns.Strategy;
+﻿using System;
+
+using BehavioralPatterns.Strategy;
+using BehavioralPatterns.Strategy.Weapon;
+using BehavioralPatterns.Strategy.Implementation.RefillType;
+using BehavioralPatterns.Strategy.Implementation.RepairType;
+using BehavioralPatterns.Strategy.Implementation.Troops;
 
 namespace DesignPatternDemystify
 {
@@ -6,6 +12,8 @@ namespace DesignPatternDemystify
     {
         public StrategyImplementation()
         {
+            // Learning a strategy Pattern
+            Console.WriteLine("\nLearning Strategy Pattern\n");
             Soldier soldier1 = new Archerman(new Archer(), new WeaponBasedRefill(), new NoRepair());
             soldier1.Fight();
             soldier1.Refill();

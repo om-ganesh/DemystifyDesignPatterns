@@ -12,6 +12,7 @@ namespace DIPatterns
         public static IContainer container;
         public Start()
         {
+            Console.WriteLine("\nLearning Dependency Injection Pattern\n");
             // First Implementation (without using DI)
             Commerce commerce = new Commerce();
             Order o = new Order("Subash", "12245", "GWP", new Product("Dell"));

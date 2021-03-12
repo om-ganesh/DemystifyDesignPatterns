@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BehavioralPatterns.Strategy.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -7,14 +8,17 @@ namespace BehavioralPatterns.Strategy
     /// <summary>
     /// Age of Empires Game
     /// Soldier can be of type Spearman, Archer, Gunman, Palladin and will attack() enemy
-    /// Each type of soldier will use their kind of tools to attack
+    /// Each type of soldier will use their kind of tools to attack; such as
     /// Spearman uses spears, Archer uses bow, Gunman uses pistols, palladin rides on horse with sword
+    /// In addition, some soldier can only move v/s some can fly
+    /// Each soldier has their own hit points (i.e. life)
     /// </summary>
     public class Soldier
     {
         IWeapon weapon;
         IRefillBehavior refillBehavior;
         IRepairBehavior repairBehavior;
+        protected int hitPoints;
 
         public Soldier(IWeapon weapon, IRefillBehavior refillBehavior, IRepairBehavior repairBehavior)
         {

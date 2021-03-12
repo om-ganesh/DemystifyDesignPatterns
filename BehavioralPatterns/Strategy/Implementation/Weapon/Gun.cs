@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using BehavioralPatterns.Strategy.Interface;
 
-namespace BehavioralPatterns.Strategy
+namespace BehavioralPatterns.Strategy.Weapon
 {
     public class Gun : IWeapon
     {
