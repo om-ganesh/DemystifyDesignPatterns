@@ -2,12 +2,15 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>DesignPatternDemystify.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BehavioralPatterns\BehavioralPatterns.csproj" />
-    <ProjectReference Include="..\DIPatterns\DIPatterns.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DependencyInjectionPatterns\DependencyInjectionPatterns.csproj" />
+    <ProjectReference Include="..\ObserverPatterns\ObserverPatterns.csproj" />
+    <ProjectReference Include="..\StrategyPatterns\StrategyPatterns.csproj" />
   </ItemGroup>
 
 </Project>
